@@ -1,7 +1,12 @@
-body { /*font-family: Consolas, "Liberation Mono", Courier, monospace;*/ padding-top: 20px; padding-bottom: 40px; background-color: #eee; }
+body { /*font-family: Consolas, "Liberation Mono", Courier, monospace;*/ padding-top: 20px; padding-bottom: 40px; background-color: #eee; color: #656565; }
+h1, h2, h3 { color: #333; }
 h1	{ font-size: 32px; }
 .container-narrow { margin: 0 auto; max-width: 700px; }
 .container-narrow > hr { margin: 30px 0; border-bottom:none; }
+.masthead { overflow: auto; }
+.masthead img { float: left; height: 50px; margin-right: 10px; }
+.masthead h1 { float: left; margin-top: 5px; font-size: 28px; }
+.masthead .nav { margin: 7px 0 0 0; }
 .nav a { color: #333; }
 #u { text-transform: capitalize; }
 .charts { margin: 30px 0; }
