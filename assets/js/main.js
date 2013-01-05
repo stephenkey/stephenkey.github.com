@@ -10,9 +10,9 @@ $(function () {
     ];
 
     var frameworks = [
-      { label: "Rails (Ruby)", data: 60, color: '#FF530D' },
+      { label: "Rails (Ruby)", data: 60, color: '#2CB075' },
       { label: "Codeigniter (PHP)", data: 60, color: '#333333' },
-      { label: "Slim (PHP)", data: 30, color: '#2CB075' },
+      { label: "Slim (PHP)", data: 30, color: '#FF530D' },
       { label: "Lithium (PHP)", data: 25, color: '#FF3483' },
       { label: "Flask (Python)", data: 10, color: '#3442BF' }
     ];
