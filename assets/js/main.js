@@ -29,7 +29,7 @@ $(function () {
       }
     });
 
-    $("#languages").append('<div style="position:absolute; top:42%; left: 27%;">Languages</div>');
+    $("#languages").append('<div class="title">Languages</div>');
                   
     $.plot($("#frameworks"), frameworks, {
       series: {
@@ -40,7 +40,7 @@ $(function () {
       }
     });
 
-    $("#frameworks").append('<div style="position:absolute; top:42%; left: 21%;">Frameworks</div>');
+    $("#frameworks").append('<div class="title">Frameworks</div>');
 
     if($.getUrlVar('u')) {
       var u = $.getUrlVar('u');
