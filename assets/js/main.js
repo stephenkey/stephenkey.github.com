@@ -17,8 +17,7 @@ $(function () {
       { label: "Flask (Python)", data: 10, color: '#3442BF' }
     ];
                         
-    $.plot($("#languages"), languages,
-    {
+    $.plot($("#languages"), languages, {
       series: {
           pie: { 
               innerRadius: 0.85,
@@ -32,8 +31,7 @@ $(function () {
 
     $("#languages").append('<div style="position:absolute; top:42%; left: 27%;">Languages</div>');
                   
-    $.plot($("#frameworks"), frameworks,
-    {
+    $.plot($("#frameworks"), frameworks, {
       series: {
           pie: { 
               innerRadius: 0.85,
