@@ -1,0 +1,3 @@
+[submodule "backbone-frontend"]
+	path = backbone-frontend
+	url = https://github.com/stephenkey/backbone-frontend.git
