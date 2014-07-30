@@ -2,7 +2,7 @@ body { /*font-family: Consolas, "Liberation Mono", Courier, monospace;*/ padding
 h1, h2, h3 { color: #333; }
 h1	{ font-size: 32px; }
 .container-narrow { margin: 0 auto; max-width: 700px; }
-.container-narrow > hr { margin: 40px 0; border-bottom:none; }
+.container-narrow hr { margin: 40px 0; border-bottom:none; }
 .masthead { overflow: auto; }
 .masthead img { float: left; height: 50px; margin-right: 10px; }
 .masthead h1 { float: left; margin-top: 5px; font-size: 28px; }
