@@ -10,14 +10,14 @@ $(function () {
     ];
 
     var frameworks = [
-      { label: "Rails (Ruby)", data: 25, color: '#2CB075' },
-      { label: "Jekyll (Ruby)", data: 20, color: '#2CB075' },
-      { label: "Codeigniter (PHP)", data: 15, color: '#333333' },
+      { label: "Rails (Ruby)", data: 25, color: '#3442BF' },
+      { label: "Jekyll (Ruby)", data: 20, color: '#3442BF' },
+      { label: "Codeigniter (PHP)", data: 15, color: '#FF530D' },
       { label: "Slim (PHP)", data: 10, color: '#FF530D' },
-      { label: "AngularJS (JS)", data: 10, color: '#AAA' },
-      { label: "BackboneJS (JS)", data: 10, color: '#AAA' },
-      { label: "Lithium (PHP)", data: 5, color: '#FF3483' },
-      { label: "Flask (Python)", data: 5, color: '#3442BF' }
+      { label: "AngularJS (JS)", data: 10, color: '#333333' },
+      { label: "BackboneJS (JS)", data: 10, color: '#333333' },
+      { label: "Lithium (PHP)", data: 5, color: '#FF530D' },
+      { label: "Flask (Python)", data: 5, color: '#2CB075' }
     ];
                         
     $.plot($("#languages"), languages, {
