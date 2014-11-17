@@ -31,11 +31,12 @@ body {
 }
 .content {
   position: relative;
-  margin-top: -15%;
   top: 50%;
   font-size: 18px;
   line-height: 32px;
 }
+p { margin: 0 0 18px; }
+
 .header, .footer {
   position: absolute;
   width: 100%;
@@ -66,3 +67,14 @@ body {
 .page.first a { color: #428bca; }
 .page.second a { color: #98a9ca; }
 .page.third a { color: #cab6d9; }
+
+@media (max-width: 480px) {
+
+  .content {
+    top: 40%;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  p { margin: 0 0 16px; }
+
+}
